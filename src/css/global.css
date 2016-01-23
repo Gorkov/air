@@ -1,33 +1,7 @@
-<<<<<<< HEAD
-/*-------------GLOBAL-------------*/
-=======
--------------GLOBAL-------------*/
->>>>>>> 2a1c7c8f9f00f3f96b3a9ea6a798febb787d7d39
 html {
 	height: 100%;
 }
 body {
-<<<<<<< HEAD
-	height: 100%;
-	max-width:1200px; 
-}
-/*--------MENU--------*/
-.header-menu {
-	margin: 0;
-	padding: 0;
-	height: 40px;
-	background: #34437C;
-	-webkit-box-shadow: 0px 3px 5px 2px rgba(52,67,124,0.25);
-	-moz-box-shadow: 0px 3px 5px 2px rgba(52,67,124,0.25);
-	box-shadow: 0px 3px 5px 2px rgba(52,67,124,0.25);
-
-}
-.menu-item {
-	list-style: none;
-	display: inline-block;
-	margin-left: 15px;
-	padding-top: 10px;
-=======
 	position: relative;
 	height: 100%;
 	width: 100%;
@@ -35,6 +9,14 @@ body {
 .container {
 	margin: 0 auto;
 	width: 960px;
+}
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+	display: table;
+	content: " ";
+}
+.container:after, .clearfix:after {
+	clear: both;	
 }
 /*HEADER*/
 .first-page {
@@ -60,14 +42,10 @@ body {
 }
 .menu-item:hover {
 	border-bottom: 3px solid #1DEBF8;
->>>>>>> 2a1c7c8f9f00f3f96b3a9ea6a798febb787d7d39
 }
 .menu-link {
 	text-decoration: none;
 	color: white;
-<<<<<<< HEAD
-}
-=======
 	font-size: 14px;
 	padding-bottom: 20px;
 	padding-left: 6px;
@@ -152,6 +130,7 @@ body {
 	background-image: url(../img/bg2.jpg);
 	background-size: cover;
 	background-position: center;
+	margin-bottom: 70px;
 }
 /*			FORM-TIMER*/
 .form-timer {
@@ -163,6 +142,7 @@ body {
 	padding-top: 19px;
 	margin-top: 60px;
 	padding-right: 13px;
+	padding-bottom: 40px;
 }
 .timer-name {
 	font-size: 22px;
@@ -185,22 +165,252 @@ body {
 /*			SECTION FORM*/
 .form-wrap {
 	float: right;
-	width: 343px;
+	width: 335px;
 	margin-top: 79px;
-	margin-right: 53px;
+	margin-right: 61px;
 }
 .section-form {
 	color: white;
 }
+.form-name {
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.form-label,
+.form-input {
+	display: block;
+}
+.form-label {
+	margin-bottom: 10px;
+}
+.form-input {
+	width: 100%;
+	margin-bottom: 19px;
+	background-image: -webkit-linear-gradient(left,#8A67AB,#746CA5);
+	color: white;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 4px;
+}
+.last{
+	margin-bottom: 35px;
+}
+.form-button {
+	width: 107%;
+	background: #00F2FE;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #00F2FE;
+}
+/*END FORM-PAGE*/
 
-/* GLOBAL*/
-.container:before, .clearfix:before,
-.container:after, .clearfix:after {
-	display: table;
-	content: " ";
+/*CHOICE*/
+/*			US*/
+.choice-us {
+	background: url(../img/choice-us.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 52px;
+	margin-bottom: 100px;
 }
-.container:after, .clearfix:after {
-	clear: both;	
+.us-item {
+	float: left;
 }
-/*END GLOBAL
->>>>>>> 2a1c7c8f9f00f3f96b3a9ea6a798febb787d7d39
+.us-name {
+	font-size: 24px;
+	font-weight: bold;
+}
+.fk {
+	background-image: url(../img/logos.gif);
+}
+.add {
+	font-size: 20px;
+	font-weight: normal;
+	color: #68757E;
+}
+.add-big {
+	font-size: 24px;
+	font-weight: bold;
+	color: #68757E;
+}
+/*			YOUR*/
+.choice-your {
+	margin-bottom: 80px;
+}
+.your-group {
+	padding-left: 30px;
+}
+.your-name {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: #26283F;
+	margin-bottom: 90px;
+}
+.your-item {
+	width: 238px;
+	display: inline-block;
+	margin-left: 50px;
+	color: #929CA5;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 100px;
+	margin-bottom: 77px;
+	line-height: 20px;
+}
+.your-txt {
+	background: url(../img/choice-your.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.your-bigtxt {
+	font-weight: bold;
+}
+/*			ITEM*/
+.prop {
+	background-image: url(../img/item/g4.png);
+	background-repeat: no-repeat;
+	background-position: center 3px;
+
+}
+.pers {
+	background-image: url(../img/item/g2.png);
+	background-repeat: no-repeat;
+	background-position: center 15px;
+}
+.serv {
+	background-image: url(../img/item/g3.png);
+	background-repeat: no-repeat;
+	background-position: center 3px;
+}
+.garant {
+	background-image: url(../img/item/g4.png);
+	background-repeat: no-repeat;
+	background-position: center 3px;
+}
+.free {
+	background-image: url(../img/item/g5.png);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+}
+.clear {
+	background-image: url(../img/item/g6.png);
+	background-repeat: no-repeat;
+	background-position: center 3px;
+}
+/*END CHOICE*/
+
+/*CALCULAT*/
+.calculat {
+	background-image: url(../img/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 90px;
+}
+.calculat-name {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-bottom: 60px;
+}
+.calc-wrap {
+	background-image: url(../img/calc.png);
+	background-size: cover;
+	background-position: center;
+	width: 840px;
+	margin: 0 auto;
+	color: #F4F8FB;
+	padding-top: 46px;
+	padding-bottom: 27px;
+	margin-bottom: 40px;
+}
+/*			CALC-DATA*/
+.calc-data {
+	padding-bottom: 35px;
+	background-image: url(../img/choice-us.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-bottom: 35px;
+}
+.calc-main,
+.calc-res-data {
+	width: 400px;
+	float: left;
+	margin-left: 35px;
+}
+.calc-adva,
+.calc-recomend {
+	width: 300px;
+	float: right;
+	margin-right: 46px;
+}
+.calc-name {
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.calc-label {
+	float: left;
+	margin-bottom: 16px;
+}
+.calc-input,
+.calc-select {
+	float: right;
+	width: 83px;
+	background-image: -webkit-linear-gradient(left,#6F86A6,#6F86A6);
+	border: 1px solid #A7D1FF;
+}
+.calc-input.clearfix {
+	border: none;
+}
+.input-adva {
+	float: left;
+}
+.calc-quest {
+	height: 26px;
+	width: 26px;
+	float: right;
+	background-image: url(../img/question.png);
+	background-repeat: no-repeat;
+}
+.calc-quest:hover { 
+	background-image: url(../img/question-hover.png);
+}
+/*			CALC RESULT*/
+.calc-res-form {
+	color: #FCFAFB;
+	font-weight: bold;
+	margin-bottom: 
+}
+.calc-res-data {
+	background-image: url(../img/arrow-calcul.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.calc-res-label {
+	margin-bottom: 20px;
+}
+.first-power { /*first label in calc-res-data*/
+	margin-right: 25px;
+}
+.sp-power { /*number of power and diapason*/
+	font-size: 20px;
+	font-weight: bold;
+}
+.calc-recomend {
+	margin-top: 6px;
+	margin-bottom: 37px;
+}
+.calc-button {
+	display: block;
+	margin: auto;
+	background: #00F2FE;
+	color: white;
+	font-weight: bold;
+	padding: 17px;
+	border: 1px solid #00F2FE;
+	border-radius: 4px;
+}
