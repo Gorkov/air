@@ -2,10 +2,8 @@
     font-family: 'exo_2bold';
     src: url('exo2-bold-webfont.eot');
     src: url('exo2-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('exo2-bold-webfont.woff2') format('woff2'),
          url('exo2-bold-webfont.woff') format('woff'),
-         url('exo2-bold-webfont.ttf') format('truetype'),
-         url('exo2-bold-webfont.svg#exo_2bold') format('svg');
+         url('exo2-bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,10 +11,9 @@
     font-family: 'exo_2regular';
     src: url('exo2-regular-webfont.eot');
     src: url('exo2-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('exo2-regular-webfont.woff2') format('woff2'),
+
          url('exo2-regular-webfont.woff') format('woff'),
-         url('exo2-regular-webfont.ttf') format('truetype'),
-         url('exo2-regular-webfont.svg#exo_2regular') format('svg');
+         url('exo2-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,10 +21,8 @@
     font-family: 'open_sansregular';
     src: url('open-sans_allfont.ru-webfont.eot');
     src: url('open-sans_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
-         url('open-sans_allfont.ru-webfont.woff2') format('woff2'),
          url('open-sans_allfont.ru-webfont.woff') format('woff'),
-         url('open-sans_allfont.ru-webfont.ttf') format('truetype'),
-         url('open-sans_allfont.ru-webfont.svg#open_sansregular') format('svg');
+         url('open-sans_allfont.ru-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,10 +30,8 @@
     font-family: 'open_sansbold';
     src: url('open-sans-bold_allfont.ru-webfont.eot');
     src: url('open-sans-bold_allfont.ru-webfont.eot?#iefix') format('embedded-opentype'),
-         url('open-sans-bold_allfont.ru-webfont.woff2') format('woff2'),
          url('open-sans-bold_allfont.ru-webfont.woff') format('woff'),
-         url('open-sans-bold_allfont.ru-webfont.ttf') format('truetype'),
-         url('open-sans-bold_allfont.ru-webfont.svg#open_sansbold') format('svg');
+         url('open-sans-bold_allfont.ru-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

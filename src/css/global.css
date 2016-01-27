@@ -154,9 +154,6 @@ button {
   background-position: center;
   margin-bottom: 79px;
 }
-.form2 {
-  margin-bottom: 90px;
-}
 /*      FORM-TIMER*/
 .form-timer {
   float: left;
@@ -165,7 +162,7 @@ button {
   color: white;
   margin-left: 170px;
   padding-top: 19px;
-  margin-top: 60px;;
+  margin-top: 60px;
   padding-bottom: 40px;
 }
 .timer-name {
@@ -222,14 +219,12 @@ button {
 }
 .form-name {
   margin-bottom: 30px;
-  font-family: 'exo_2regular';
-  letter-spacing: 0.02em;
-  font-size: 22px;
+  letter-spacing: 0.02em;;
+  font: 22px 'exo_2regular';
 }
-.form2-name {
-    font-family: 'exo_2bold';
-    font-size: 22px;
+.form2-name {;
     letter-spacing: 0.02em;;
+    font: 20px 'exo_2bold';;
 }
 .form-label,
 .form-input {
@@ -258,8 +253,47 @@ button {
   padding: 10px 10px 15px 10px;
   border-radius: 4px;
   border: 1px solid #00F2FE;
-  font-family: 'exo_2bold';
+  font: 22px 'exo_2bold';
 }
+/*      SECTION FORM2*/
+.form2 {
+  margin-bottom: 90px;
+}
+/*      SECTION FORM3*/
+.section3-form {
+  margin-top: 5px;
+}
+.form3 {
+  background-image: url(../img/bg/bg4.jpg);
+  margin-bottom: 0;
+}
+.form3-text {
+  width: 477px;
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+
+}
+.form3-left {
+  padding-left: 0px;
+
+}
+.form3l-name {      /*left block*/
+  width: 400px;
+  font: 40px 'exo_2bold';
+  padding-top: 37px;
+  margin-left: 62px;
+  padding-bottom: 174px;
+  margin-top: 122px;
+}
+.form3r-name {      /*right block*/
+  margin-bottom: 56px;
+}
+/*      SECTION FORM4*/
+.form4 {
+  background-image: url(../img/bg/bg2.jpg);
+}
+
 /*END FORM-PAGE*/
 
 /*CHOICE*/
@@ -705,6 +739,13 @@ button {
   margin-top: -19px;
 }
 /*CATALOG INDUSTRIAL*/
+.product-ind-type {
+  background-image: url(../img/line.gif);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 80px;
+  margin-bottom: 85px;;
+}
 .ind-name {
   padding: 0;
   background: none;
@@ -718,14 +759,15 @@ button {
 
 }
 .product-ind-item {
-	float: left;
+  float: left;
     list-style: none;
     width: 305px;
     margin-left: 135px;
     border: 1px solid #93C8F5;
+  margin-bottom: 55px;
 }
 .ind-item-name {
-	font-family: 'exo_2bold';
+  font-family: 'exo_2bold';
     font-size: 20px;
     text-align: center;
     background-image: url(../img/tovar/line.png);
@@ -739,13 +781,152 @@ button {
 
 }
 .ind-prev-img {
+  padding: 0 10px;;;;
 
 }
 .ind-item-text {
-	font-family: 'exo_2regular';
+  font-family: 'exo_2regular';
     font-size: 16px;
     color: #27333C;
+  padding: 0 15px;
+  margin-bottom: 20px;
 }
-.item-button {
+.ind-button {
+  font: 22px 'exo_2bold';
+  color: white;
+  background: #E71F20;
+  border-radius: 4px;
+  padding: 10px 43px;
+  margin-left: 371px;
+}
+.vrf {;
+  padding-bottom: 31px;
+    
+}
+/*END CATALOG INDUSTRIAL*/
+
+/*SECTION PARTNER*/
+.partner {
+  background-image: url(../img/bg/bg-partner.jpg);
+  background-position: center;
+  margin-bottom: 100px;
+}
+.partner-name {
+  font: 32px 'exo_2bold';
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 320px;
+
+}
+/*END SECTION PARTNER*/
+
+/*SECTION INSTALL*/
+.install {
+  background-image: url(../img/item/install.png);
+  background-repeat: no-repeat;
+  background-position: 228px 101px;
+  margin-bottom: 100px;;;;
+}
+.install-name {
+  font: 32px 'exo_2bold';
+  text-align: center;
+  margin-bottom: 298px;
+
+}
+.install-top {;;
+  margin-bottom: 155px;;;
+  margin-left: -15px;
+
+}
+.install-bottom {;;
+  margin-left: 73px;
+  
+}
+.install-item {
+  list-style: none;
+  width: 255px;
+  float: left;
+  margin-left: 85px;
+  text-align: center;
+
+}
+.first-install {
+  margin-left: 0;;
+
+}
+.install-text {
+  font: 16px 'exo_2bold';
+  margin-bottom: 16px;
+
+}
+.install-sm-text {
+  font: 16px 'exo_2regular';
+
+}
+/*END SECTION INSTALL*/
+.howork {
+    background-image: url(../img/bg/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+    height: 475px;
+}
+.howork-name {
+  font: 32px 'exo_2bold';
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 90px;
+
+}
+.howork-group {
+
+}
+.howork-item {
+  width: 230px;
+  float: left;
+  list-style: none;
+  margin-left: 15px;
+
+}
+.howork-text {
+  font: 16px 'exo_2bold';
+  margin-left: 40px;
+
+}
+.howork-sm-text {
+  font: 16px 'exo_2regular';
+  margin-left: 40px;
+  margin-bottom: 33px;
+
+}
+.howork1 {
+  background-image: url(../img/01.png);
+  background-repeat: no-repeat;
+  background-position: 5px 3px;
+  margin-left: -30px;
+
+}
+.howork2 {
+  background-image: url(../img/02.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;;
+}
+.howork3 {
+  background-image: url(../img/03.png);
+  background-repeat: no-repeat;
+  background-position: 0 1px;
+}
+.howork4 {
+  background-image: url(../img/04.png);
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  padding-bottom: 78px;;
+}
+.howork-button {
+  margin-left: 42px;
+  color: #FAFEFF;
+  background: #07DCF0;
+  padding: 5px 25px;
+  border-radius: 4px;
+  font: 16px 'exo_2bold';
 
 }
