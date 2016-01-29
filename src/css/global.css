@@ -865,10 +865,11 @@ button {
 }
 /*END SECTION INSTALL*/
 .howork {
-    background-image: url(../img/bg/bg5.jpg);
-  background-size: cover;
-  background-position: center;
-    height: 475px;
+	background-image: url(../img/bg/bg5.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 475px;
+	margin-bottom: 89px;
 }
 .howork-name {
   font: 32px 'exo_2bold';
@@ -928,5 +929,62 @@ button {
   padding: 5px 25px;
   border-radius: 4px;
   font: 16px 'exo_2bold';
+}
+/*END HOW WE WORK*/
+
+/*SECTION SERTIFIC*/
+.sertific {
+	background: #F5FAFE;
+	padding-bottom: 90px;
+	margin-bottom: 90px;
+}
+.sertific-name {
+	font: 32px 'exo_2bold';
+	text-align: center;
+	margin-bottom: 70px;
+}
+.ser-item {
+	display: inline-block;
+	margin-left: 45px;
+}
+.ser-text {
+	display: block;
+	text-align: center;
+	font: 16px 'exo_2regular';
+}
+/*END SECTION SERTIFIC*/
+
+/*SECTION QUESTIONS*/
+.question-name {
+	font: 32px 'exo_2bold';
+	margin-left: 10%;
+	margin-bottom: 55px;
+}
+.question-group {
 
 }
+.question-item {
+	list-style: none;
+	margin-bottom: 25px;
+}
+.question-text {
+		background: url(../img/quest.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 20px 0 20px 75px;
+	font: 16px 'exo_2bold';
+}
+.question-sm-text {
+	padding-left: 75px;
+	font: 16px 'exo_2regular';
+}
+.quest-last {
+	margin-bottom: 40px;
+}
+.question-link {
+	text-decoration: none;
+	margin-left: 75px;
+	border-bottom: 2px dashed;
+  color: #0C2086;
+}
+/*END SECTION QUESTIONS*/
