@@ -3,18 +3,19 @@ html {
   height: 100%;
 }
 body {
-  position: relative;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 section,
 header,
 nav {
   min-width: 960px;
+  
 }
 .container {
   margin: 0 auto;
-  min-width: 960px;
+  width: 960px;
 }
 .container:before, .clearfix:before,
 .container:after, .clearfix:after {
@@ -40,13 +41,15 @@ button {
   margin-bottom: 6px;
 }
 .menu-group {
-  margin-bottom: 40px
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0;;;
 }
 .menu-item {
   margin-left: 10px;
-  float: left;
   list-style: none;
   padding: 10px 0 7px;
+  display: inline-block;;;
 }
 .menu-item:hover {
   border-bottom: 3px solid #1DEBF8;
@@ -67,19 +70,18 @@ button {
 .first-page {
   background-image: url(../img/bg/bg1.jpg);
   background-size: cover;
-  background-position: center;
   height: 768px;
   padding-top: 35px;
+  background-position: center;
 }
 /*      ADRESS*/
 .page-adress {
-  position: relative;
-  display: inline-block;
   background-image: url(../img/line.gif);
   background-repeat: no-repeat;
-  background-position-y: bottom;
   padding-bottom: 32px;
   margin-bottom: 189px;
+  background-position: bottom;
+  text-align: center;;;;
 }
 .page-logo,
 .number-button,
@@ -91,13 +93,12 @@ button {
   vertical-align: middle;
 }
 .page-text {
-  margin-left: 30px;
-  width: 345px;
   font-size: 14px;
   font-family: 'exo_2regular';
   color: #39434D;
   letter-spacing: 0.4px;
   line-height: 18px;
+  margin-left: 30px;;
 }
 .page-number {
   font-size: 24px;
@@ -290,7 +291,7 @@ button {
 }
 /*      SECTION FORM4*/
 .form4 {
-	padding-bottom: 34px;
+  padding-bottom: 34px;
   margin-bottom: 90px;
 }
 
@@ -303,18 +304,18 @@ button {
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 52px;
-  margin-bottom: 79px;
+  margin-bottom: 79px;;
 }
 .us-item {
-  float: left;
+  width: 185px;
+  vertical-align: middle;
   display: inline-block;
-  width: 188px;
-  height: 76px;
+  height: 76px;;
 }
 .us-name {
   font-family: 'exo_2bold';
-  margin-right: 20px;
   font-size: 32px;
+  width: 215px;;
 }
 .fk {
   background-image: url(../img/logos.gif);
@@ -331,29 +332,28 @@ button {
 .fk,
 .zhd,
 .zb {
-  margin-top: -19px;
+  position: relative;
+  top: -15px;
 }
-.add {
-  font-weight: normal;
+.add {;
   color: #68757E;
   font-family: 'exo_2regular';
-  line-height: 30px;
   margin-left: 20px;
-  margin-top: -30px;
   font-size: 20px;
-  width: 135px;
+  width: 143px;;
+  position: relative;;
+  top: -25px;;;
 }
 .add-big {
   color: #68757E;
-  font-family: 'exo_2bold';
-  line-height: 37px;
+  font: 32px 'exo_2bold';;
 }
 /*      YOUR*/
 .choice-your {
   margin-bottom: 80px;
 }
 .your-group {
-  padding-left: 30px;
+  padding-left: 100px;;;
 }
 .your-name {
   font-size: 32px;
@@ -363,15 +363,14 @@ button {
   text-align: center;
 }
 .your-item {
-  width: 238px;
-  display: inline-block;
+  width: 300px;
   margin-left: 50px;
-  color: #929CA5;
-  font-size: 14px;
-  text-align: center;
-  vertical-align: top;;
+  color: #929CA5;;
   margin-bottom: 77px;
   line-height: 20px;
+  vertical-align: top;
+  font-size: 14px;
+  display: inline-block;
 }
 .your-txt {
   background: url(../img/choice-your.png);
@@ -393,7 +392,7 @@ button {
   background-image: url(../img/item/g1.png);
   background-repeat: no-repeat;
   background-position: center 19px;
-  padding-top: 110px;;
+  padding-top: 110px;;;
 }
 .prop .your-txt {
   padding-bottom: 43px;;
@@ -601,18 +600,18 @@ button {
 }
 /*          ADVANC*/
 .product-title {
-  float: left;
   font-family: 'exo_2bold';
   font-size: 22px;
-  margin-left: 7px;
   color: #0A0C11;
+  margin-left: 7px;
   padding: 9px;
+  display: inline-block;
 }
 .product-disc {
-  float: right;
   font-family: 'exo_2regular';
   font-size: 16px;
   color: #5A6873;
+  display: inline-block;
   margin-right: 226px;
 }
 .product-in-disc {
@@ -634,7 +633,7 @@ button {
   float: left;
   width: 222px;
   border: 1px solid #93C8F5;
-  margin-left: 20px
+  margin-left: 20px;
 }
 .product-first {
   margin-left: -20px;
@@ -865,11 +864,11 @@ button {
 }
 /*END SECTION INSTALL*/
 .howork {
-	background-image: url(../img/bg/bg5.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 475px;
-	margin-bottom: 89px;
+  background-image: url(../img/bg/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 475px;
+  margin-bottom: 89px;
 }
 .howork-name {
   font: 32px 'exo_2bold';
@@ -934,57 +933,57 @@ button {
 
 /*SECTION SERTIFIC*/
 .sertific {
-	background: #F5FAFE;
-	padding-bottom: 90px;
-	margin-bottom: 90px;
+  background: #F5FAFE;
+  padding-bottom: 90px;
+  margin-bottom: 90px;
 }
 .sertific-name {
-	font: 32px 'exo_2bold';
-	text-align: center;
-	margin-bottom: 70px;
+  font: 32px 'exo_2bold';
+  text-align: center;
+  margin-bottom: 70px;
 }
 .ser-item {
-	display: inline-block;
-	margin-left: 45px;
+  display: inline-block;
+  margin-left: 45px;
 }
 .ser-text {
-	display: block;
-	text-align: center;
-	font: 16px 'exo_2regular';
+  display: block;
+  text-align: center;
+  font: 16px 'exo_2regular';
 }
 /*END SECTION SERTIFIC*/
 
 /*SECTION QUESTIONS*/
 .question {
-	padding-bottom: 85px;
+  padding-bottom: 85px;
 }
 .question-name {
-	font: 32px 'exo_2bold';
-	margin-left: 10%;
-	margin-bottom: 55px;
+  font: 32px 'exo_2bold';
+  margin-left: 10%;
+  margin-bottom: 55px;
 }
 .question-item {
-	list-style: none;
-	margin-bottom: 25px;
+  list-style: none;
+  margin-bottom: 25px;
 }
 .question-text {
-		background: url(../img/quest.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding: 20px 0 20px 75px;
-	font: 16px 'exo_2bold';
+    background: url(../img/quest.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 20px 0 20px 75px;
+  font: 16px 'exo_2bold';
 }
 .question-sm-text {
-	padding-left: 75px;
-	font: 16px 'exo_2regular';
+  padding-left: 75px;
+  font: 16px 'exo_2regular';
 }
 .quest-last {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .question-link {
-	text-decoration: none;
-	margin-left: 75px;
-	border-bottom: 2px dashed;
+  text-decoration: none;
+  margin-left: 75px;
+  border-bottom: 2px dashed;
   color: #0C2086;
   margin-bottom: 85px;
 }
@@ -992,88 +991,88 @@ button {
 
 /*SECTION REVIEW*/
 .review {
-	background: #F5FAFE;
-	padding-top: 85px;
-	padding-bottom: 60px;
+  background: #F5FAFE;
+  padding-top: 85px;
+  padding-bottom: 60px;
 }
 .review-name {
-	font: 32px 'exo_2bold';
-	margin-left: 10%;
-	margin-bottom: 55px;
+  font: 32px 'exo_2bold';
+  margin-left: 10%;
+  margin-bottom: 55px;
 }
 .review-item {
-	list-style: none;
-	background: url(../img/line.gif);
-	background-repeat: no-repeat;
-	background-position: bottom;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
+  list-style: none;
+  background: url(../img/line.gif);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .review-img {
-	float: left;
-	
+  float: left;
+  
 }
 .aley {
-	position: relative;
-	top: 27px;
+  position: relative;
+  top: 27px;
 }
 .xenof {
-	position: relative;
-	top: -2px;
+  position: relative;
+  top: -2px;
 }
 .hmel {
-	position: relative;
-	top: -1px;
+  position: relative;
+  top: -1px;
 }
 .kochk {
-	position: relative;
-	top: -3px;
+  position: relative;
+  top: -3px;
 }
 .review-text {
-	padding-left: 165px;
-	font: 16px 'exo_2regular';
-	margin-bottom: 20px;
+  padding-left: 165px;
+  font: 16px 'exo_2regular';
+  margin-bottom: 20px;
 }
 .review-author {
-	padding-left: 165px;
-	font: 16px 'exo_2bold';
+  padding-left: 165px;
+  font: 16px 'exo_2bold';
 }
 /*END SECTION REVIEW*/
 
 /*SECTION FIND*/
 .find-name {
-	font: 32px 'exo_2bold';
-	text-align: center;
-	margin-bottom: 80px;
+  font: 32px 'exo_2bold';
+  text-align: center;
+  margin-bottom: 80px;
 }
 .find-group {
   margin-bottom: 20px;
 }
 .find-item {
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 57px;
-	min-height: 50px;
-	padding-top: 10px;
-	margin-left: 30px;
-	font: 16px 'exo_2regular';
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 57px;
+  min-height: 50px;
+  padding-top: 10px;
+  margin-left: 30px;
+  font: 16px 'exo_2regular';
 }
 .book {
-	background: url(../img/book.png);
-	background-repeat: no-repeat;
-	background-position: left center;
+  background: url(../img/book.png);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 .map {
-	background: url(../img/map.png);
-	background-repeat: no-repeat;
-	background-position: left center;
+  background: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 .time {
-	background: url(../img/time.png);
-	background-repeat: no-repeat;
-	background-position: left center;
+  background: url(../img/time.png);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
-/*			FIND MAP*/
+/*      FIND MAP*/
 .find-map {
   display: block;
   margin-bottom: 50px;
